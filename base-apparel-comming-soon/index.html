@@ -18,12 +18,19 @@
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
-    <nav><img class="logo" src="./images/logo.svg" alt="logo" /></nav>
-    <div class="showcase-image">
-      <img class="showcase-image_item" src="./images/hero-mobile.jpg" alt="" />
-    </div>
 
+     
+    <nav id="nav-mobile"><img class="logo " src="./images/logo.svg" alt="logo" /></nav>
+     <div class="container-desktop">
+ 
+     <div class="showcase-image">
+      <img id="showcase-image_mobile" src="./images/hero-mobile.jpg" alt="girl mobile" />
+      <img id="showcase-image_desktop" src="./images/hero-desktop.jpg" alt="girl desktop" />
+   </div>
+
+   
     <main class="container">
+      <nav id="nav-desktop"><img class="logo " src="./images/logo.svg" alt="logo" /></nav>
       <h1>
         <span class="text-pink"> We're </span><br />
         coming<br />
@@ -34,25 +41,20 @@
         Add your email below to stay up-to-date with announcements and our
         launch deals.
       </p>
-    </main>
-
-    <div class="container">
- 
-      <form class="example">
+    
+  
+      <form class="form">
         <div class="wrapper">
-          <input type="email" id="text" placeholder="Email Address">
+          <input type="email" placeholder="Email Address">
           <input type="submit" value="Send">
         </div>
       </form>
-      
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor - Selflearning</a
-        >. Coded by <a href="#">Yovche Dev</a>.
-      </p>
-    </footer>
+    </main>
   </div>
-  </body>
+  
+   </body>
+   <script src="./main.js"> </script>
 </html>
+
+
+ 
