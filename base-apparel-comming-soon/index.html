@@ -44,10 +44,15 @@
     
   
       <form class="form">
-        <div class="wrapper">
-          <input type="email" placeholder="Email Address">
-          <input type="submit" value="Send">
+        <div class="wrapper relative">
+         
+          <input type="email" placeholder="Email Address" id="email-id" oninput="checker()">
+           <input type="submit" value="Send">
+          <img id="image" src="./images/icon-error.svg"></img>
         </div>
+          <p id="error-msg" class="text-pink">Please provide a valid email</p>
+
+        
       </form>
     </main>
   </div>
