@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  
+  src: url("./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf")
+  format("truetype");
+  /* font-weight: 500 800; */
+ }
+
+@font-face {
+  font-family: "Plus Jakarta Sans";  
+  src: url("./assets/fonts/static/PlusJakartaSans-Medium.ttf")
+  format("truetype");
+  /* font-weight: 500 800; */
+ }
+ 
+@font-face {
+  font-family: "Plus Jakarta Sans";  
+  src: url("./assets/fonts/static/PlusJakartaSans-ExtraBold.ttf")
+  format("truetype");
+  font-weight: 500 800;
+ }
+ 
+
+body {
+  display: flex;
+  background-color: hsl(210, 60%, 98%);
+  justify-content: center;
+  align-items: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container {
+  max-width: 768px;
+  width: 95%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 1px 5px 15px 5px rgba(0,0,0,0.7);
+}
+
+.headings {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.h-notifications {
+  font-size: 24px;
+   font-weight: 500;
+  
+}
+
+.counter {
+  background-color: hsl(219, 85%, 26%);
+  color: hsl(0, 0%, 100%);
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.message {
+  padding: 25px 30px;
+  border-radius: 15px;
+  margin: 20px 20px;
+  display: flex;
+  align-items: flex-start;
+ }
+
+.message-item { 
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.unread-message {
+  background-color:  hsl(210, 60%, 98%);
+}
+
+.user-full-name {
+  font-weight: 500;
+}
+
+
+
+.post-image {
+ margin-left: auto;
+ 
+}
+
+.time-stamp {
+margin: 10px 0; 
+color: hsl(219, 14%, 63%);
+ }
+
+ .message-reply {
+  border: 1px solid hsl(219, 14%, 63%);
+  padding:20px;
+  border-radius: 7px;
+
+ }
+
+ .user-event {
+  color: hsl(219, 12%, 42%);
+  font-weight: 800;
+  color: hsl(219, 85%, 26%);
+ }
+
+ @media (min-width: 700px) {
+  body {
+    height: 160vh;
+  }
+
+ }
